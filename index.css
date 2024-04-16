@@ -1,0 +1,10 @@
+body {
+    background: radial-gradient(farthest-corner at 0% 90%, #09111e, #11223c,  #1a335b, 
+    #224379, #2b5497, #3465b5, #4578ca, #638ed3, #82a4db);
+}
+
+h1 {
+    text-align: center;
+}
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Week 10- DOM/node_modules/bootstrap/dist/css/bootstrap.css">
+    
+    <link rel="stylesheet" href="index.css">
+</head>
+<div class="m-5">
+<body id="body-color">
+
+    <nav class="navbar navbar-expand-md  rounded-bottom">
+        <a class="navbar-brand" href="#">IT'S SHOWTIME</a>
+        
+    </nav>
+
+    <br>
+
+    <h1>Your Choice</h1>
+    
+    <br>
+<section id="table&Form">
+<table class="table table-md table-dark table-striped table-bordered rounded-3">
+
+    <thead class="table-secondary text-center">
+        <tr>
+            <th >Creator</th>
+            <th>Creation</th>
+        </tr>
+    </thead>
+
+    <tbody id="showData">
+        <tr>
+            <td>Sōsuke Tōka</td>
+            <td>Ranking Of Kings</td>
+        </tr>
+
+        <tr>
+            <td>John Milton</td>
+            <td>Paradise Lost</td>
+        </tr>
+
+        <tr>
+            <td>George Morikawa</td>
+            <td>Hajime No Ippo</td>
+        </tr>
+
+       
+
+
+    </tbody>
+</table>
+
+<div class="container">
+    <div class="row">
+      <div class="col">
+        <input type="text" class="form-control" id="creator" placeholder="Who created it?">
+      </div>
+      <div class="col">
+        <input type="text" class="form-control" id="creation" placeholder="What did they create?">
+      </div>
+      <div class="col-auto" >
+        <button type="submit" id="submit-Data" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+
+</section>
+</div>
+
+
+    <script src="index.js"></script>
+     <script src="/Week 10- DOM/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
